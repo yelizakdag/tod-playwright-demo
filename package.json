@@ -1,0 +1,16 @@
+{
+  "name": "tod-playwright-demo",
+  "version": "1.0.0",
+  "description": "Playwright CLI Demo - todtv.com.tr",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui",
+    "test:report": "playwright show-report",
+    "codegen": "playwright codegen https://www.todtv.com.tr/hosgeldiniz"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0"
+  }
+}

@@ -1,0 +1,246 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - link "TOD" [ref=e7] [cursor=pointer]:
+            - /url: /
+            - img [ref=e8]
+          - navigation [ref=e13]:
+            - list [ref=e14]:
+              - listitem [ref=e15]:
+                - link "Paketler" [ref=e16] [cursor=pointer]:
+                  - /url: "#"
+              - listitem [ref=e17]:
+                - link "İçerikleri Keşfet" [ref=e18] [cursor=pointer]:
+                  - /url: "#"
+        - generic [ref=e21]:
+          - button "Ara" [ref=e23] [cursor=pointer]:
+            - img [ref=e24]
+          - generic [ref=e27]:
+            - link "Giriş Yap" [ref=e28] [cursor=pointer]:
+              - /url: /kullanici/giris
+              - img [ref=e29]
+              - generic [ref=e31]: Giriş Yap
+            - button "Satın Al" [ref=e32] [cursor=pointer]:
+              - img [ref=e33]
+              - text: Satın Al
+    - main [ref=e36]:
+      - generic [ref=e37]:
+        - tablist [ref=e40]:
+          - tab "Paket Seçimi" [ref=e41]:
+            - link "Paket Seçimi" [ref=e42] [cursor=pointer]:
+              - /url: https://www.todtv.com.tr/satinal
+              - generic [ref=e43]:
+                - img [ref=e45]
+                - generic [ref=e47]: Paket Seçimi
+          - tab "Kişisel Bilgiler" [selected] [ref=e48]:
+            - link "Kişisel Bilgiler" [ref=e49] [cursor=pointer]:
+              - /url: https://www.todtv.com.tr/kullanici/kayit
+              - generic [ref=e52]: Kişisel Bilgiler
+          - tab "Ödeme Bilgileri" [disabled] [ref=e53]:
+            - link "Ödeme Bilgileri" [disabled] [ref=e54] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e57]: Ödeme Bilgileri
+        - generic [ref=e58]:
+          - generic [ref=e59]:
+            - heading "Süper Dolu Paketi" [level=3] [ref=e61]
+            - generic [ref=e62]:
+              - heading "Sezonluk Paket" [level=5] [ref=e63]
+              - heading "Paket Kapsamı" [level=4] [ref=e64]
+              - list [ref=e66]:
+                - listitem [ref=e67]:
+                  - img [ref=e69]
+                  - paragraph [ref=e72]: Trendyol Süper Lig
+                - listitem [ref=e73]:
+                  - img [ref=e75]
+                  - paragraph [ref=e78]: Premier Lig, Ligue 1
+                - listitem [ref=e79]:
+                  - img [ref=e81]
+                  - paragraph [ref=e84]: Formula 1
+                - listitem [ref=e85]:
+                  - img [ref=e87]
+                  - paragraph [ref=e90]: Türkiye Sigorta Basketbol Süper Ligi, WTA
+                - listitem [ref=e91]:
+                  - img [ref=e93]
+                  - paragraph [ref=e96]: TOD Studios, Paramount+ ve dünyaca ünlü stüdyolardan diziler, filmler
+                - listitem [ref=e97]:
+                  - img [ref=e99]
+                  - paragraph [ref=e102]: Canlı TV
+              - paragraph [ref=e104]: Web, Cep, Tablet, Smart TV, Apple TV 4K, Android TV
+              - generic [ref=e106]:
+                - paragraph [ref=e107]:
+                  - generic [ref=e108]: "Aylık Ödeme Tutarı :"
+                  - generic [ref=e109]: 399₺ / Ay
+                - generic [ref=e110]:
+                  - generic [ref=e111]: Toplam 1995₺
+                  - generic [ref=e112]: 5 TAKSİT
+                - text: (Belirli süreli)
+          - generic [ref=e115]:
+            - heading "Hesap Oluştur" [level=3] [ref=e116]
+            - generic [ref=e119]:
+              - generic [ref=e120]:
+                - generic [ref=e121] [cursor=pointer]: Ad
+                - textbox "Ad" [ref=e122]: yeliz
+                - text: Ad alanı hatası
+              - generic [ref=e123]:
+                - generic [ref=e124] [cursor=pointer]: Soyad
+                - textbox "Soyad" [ref=e125]: akdağ
+                - text: Soyad alanı hatası
+              - generic [ref=e126]:
+                - generic [ref=e127] [cursor=pointer]: T.C. Kimlik Numarası
+                - generic [ref=e128]:
+                  - textbox "T.C. Kimlik Numarası" [ref=e129]:
+                    - /placeholder: 11 Haneli T.C. Kimlik Numarası
+                    - text: "11111111111"
+                  - img [ref=e131] [cursor=pointer]
+                - text: TCKN hatası
+              - generic [ref=e134]:
+                - generic [ref=e135] [cursor=pointer]: Doğum Tarihi
+                - textbox "Doğum Tarihi" [ref=e136]: 2000-12-19
+                - text: Doğum tarihi hatası
+              - generic [ref=e137]:
+                - generic [ref=e138] [cursor=pointer]: E-Posta
+                - textbox "E-Posta" [ref=e139]:
+                  - /placeholder: E-posta
+                  - text: akdagyeliz@gmail.com
+                - text: E-posta hatası
+              - generic [ref=e140]:
+                - generic [ref=e141] [cursor=pointer]: Cep Telefonu
+                - textbox "Cep Telefonu" [active] [ref=e142]: (555) 555 55 55
+              - generic [ref=e144]:
+                - checkbox [ref=e146] [cursor=pointer]
+                - paragraph [ref=e148]:
+                  - text: Form içerisinde toplanan verilerin
+                  - link "müşteri aydınlatma metninde" [ref=e149] [cursor=pointer]:
+                    - /url: /izinler/potansiyel-ayd%c4%b1nlatma-metni
+                  - text: belirtildiği şekilde işlenecektir.
+              - generic [ref=e150]:
+                - button "Devam Et" [ref=e151] [cursor=pointer]:
+                  - generic [ref=e152]: Devam Et
+                  - img [ref=e153]
+                - generic [ref=e157]: Veya
+                - generic [ref=e158]:
+                  - text: Zaten hesabınız var mı?
+                  - link "Giriş Yap" [ref=e159] [cursor=pointer]:
+                    - /url: "#"
+    - generic [ref=e161]:
+      - list [ref=e163]:
+        - listitem [ref=e164]:
+          - img [ref=e165]
+          - generic [ref=e171]: Cep
+        - listitem [ref=e172]:
+          - img [ref=e173]
+          - generic [ref=e181]: Web
+        - listitem [ref=e182]:
+          - img [ref=e183]
+          - generic [ref=e192]: Tablet
+        - listitem [ref=e193]:
+          - img [ref=e194]
+          - generic [ref=e204]: Smart TV
+        - listitem [ref=e205]:
+          - img [ref=e206]
+          - generic [ref=e214]: Apple TV
+        - listitem [ref=e215]:
+          - img [ref=e216]
+          - generic [ref=e234]: Android
+      - paragraph [ref=e236]: İster evinde Smart TV'nde, istersen ofiste bilgisayarında, istersen de yolda, tatilde tabletinde izle!
+      - generic [ref=e237]:
+        - link "TOD'u Google Play'den indir" [ref=e239] [cursor=pointer]:
+          - /url: https://play.google.com/store/apps/details?id=com.digiturk.tod.mobil
+          - img [ref=e240]
+        - link "TOD'u Apple Store'dan indir" [ref=e257] [cursor=pointer]:
+          - /url: https://apps.apple.com/tr/app/tod-turkiye/id1615398541
+          - img [ref=e258]
+        - link "TOD'u Huawei AppGallery'den indir" [ref=e266] [cursor=pointer]:
+          - /url: https://appgallery.huawei.com/app/C106431955
+          - img [ref=e267]:
+            - generic [ref=e273]: KEŞFEDİN
+    - contentinfo [ref=e274]:
+      - generic [ref=e275]:
+        - generic [ref=e276]:
+          - generic [ref=e277]:
+            - heading "Yardım" [level=4] [ref=e278]
+            - list [ref=e279]:
+              - listitem [ref=e280]:
+                - link "Planlar" [ref=e281] [cursor=pointer]:
+                  - /url: /satinal
+              - listitem [ref=e282]:
+                - link "Sıkça Sorulan Sorular" [ref=e283] [cursor=pointer]:
+                  - /url: /sikca-sorulan-sorular
+              - listitem [ref=e284]:
+                - link "Kupon Kodu" [ref=e285] [cursor=pointer]:
+                  - /url: /kupon-kodu
+          - generic [ref=e286]:
+            - heading "Legal" [level=4] [ref=e287]
+            - list [ref=e288]:
+              - listitem [ref=e289]:
+                - link "Telif Hakkı Uyarısı" [ref=e290] [cursor=pointer]:
+                  - /url: /izinler/telif-%c4%b0zni
+              - listitem [ref=e291]:
+                - link "Çerez Ayarları" [ref=e292] [cursor=pointer]:
+                  - /url: javascript:;
+              - listitem [ref=e293]:
+                - link "KVK Kurumsal" [ref=e294] [cursor=pointer]:
+                  - /url: /kvk-kurumsal
+        - generic [ref=e295]:
+          - link "TOD Destek" [ref=e297] [cursor=pointer]:
+            - /url: javascript:;
+            - img [ref=e298]
+            - generic [ref=e300]: TOD Destek
+          - list [ref=e302]:
+            - listitem [ref=e303]:
+              - link "TOD'u Facebook'tan takip et" [ref=e304] [cursor=pointer]:
+                - /url: https://www.facebook.com/TOD_Türkiye-107339878898226
+                - img [ref=e305]
+            - listitem [ref=e307]:
+              - link "TOD'u Twitter'dan takip et" [ref=e308] [cursor=pointer]:
+                - /url: https://twitter.com/tod_tr
+                - img [ref=e309]
+            - listitem [ref=e311]:
+              - link "TOD'u Instagram'dan takip et" [ref=e312] [cursor=pointer]:
+                - /url: https://www.instagram.com/tod_tr/
+                - img [ref=e313]
+            - listitem [ref=e315]:
+              - link "TOD'u linkedin'den takip et" [ref=e316] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/tod-tr/
+                - img [ref=e317]
+      - generic [ref=e321]:
+        - generic [ref=e322]: Digiturk bir beIN MEDIA GROUP kuruluşudur. © 2026 Her hakkı saklıdır.
+        - link "ETBİS" [ref=e325] [cursor=pointer]:
+          - /url: https://etbis.eticaret.gov.tr/sitedogrulama/6885184114751148
+          - img "ETBİS" [ref=e326]
+        - generic [ref=e327]:
+          - link "TOD'u Google Play'den indir" [ref=e329] [cursor=pointer]:
+            - /url: https://play.google.com/store/apps/details?id=com.digiturk.tod.mobil
+            - img [ref=e330]
+          - link "TOD'u Apple Store'dan indir" [ref=e347] [cursor=pointer]:
+            - /url: https://apps.apple.com/tr/app/tod-turkiye/id1615398541
+            - img [ref=e348]
+          - link "TOD'u Huawei AppGallery'den indir" [ref=e356] [cursor=pointer]:
+            - /url: https://appgallery.huawei.com/app/C106431955
+            - img [ref=e357]:
+              - generic [ref=e363]: KEŞFEDİN
+    - iframe [ref=e364]:
+      
+  - iframe [ref=e367]:
+    - generic [ref=f4e2]:
+      - generic [ref=f4e3]:
+        - generic [ref=f4e4]:
+          - strong [ref=f4e5]: reCAPTCHA
+          - text: tarafından korunmaktadır
+        - generic [ref=f4e7]:
+          - text: reCAPTCHA, hizmet şartlarını değiştiriyor.
+          - link "İşlem yapın." [ref=f4e8] [cursor=pointer]:
+            - /url: https://google.com/recaptcha/admin/migrate
+        - generic [ref=f4e9]: "-"
+      - generic [ref=f4e12]:
+        - link "Gizlilik" [ref=f4e13] [cursor=pointer]:
+          - /url: https://www.google.com/intl/tr/policies/privacy/
+        - text: "-"
+        - link "Şartlar" [ref=f4e14] [cursor=pointer]:
+          - /url: https://www.google.com/intl/tr/policies/terms/
+```
