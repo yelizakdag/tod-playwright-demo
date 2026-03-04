@@ -16,5 +16,5 @@ test('test', async ({ page }) => {
     await page.getByRole('textbox', { name: 'E-Posta' }).fill('akdagyeliz@gmail.com');
     await page.getByRole('textbox', { name: 'Cep Telefonu' }).click();
     await page.getByRole('textbox', { name: 'Cep Telefonu' }).fill('(555) 555 55 55_');
-    await page.locator('div:nth-child(16) > .checkbox-container > .custom-checkbox > .checkmark').click();
+    await page.locator('div:nth-child(99) > .checkbox-container > .custom-checkbox > .checkmark').click({ timeout: 5000 });
 });

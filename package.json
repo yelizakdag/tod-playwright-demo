@@ -8,9 +8,12 @@
     "test:debug": "playwright test --debug",
     "test:ui": "playwright test --ui",
     "test:report": "playwright show-report",
-    "codegen": "playwright codegen https://www.todtv.com.tr/hosgeldiniz"
+    "codegen": "playwright codegen https://www.todtv.com.tr/hosgeldiniz",
+    "cucumber": "cucumber-js",
+    "cucumber:report": "open cucumber-report/index.html"
   },
   "devDependencies": {
+    "@cucumber/cucumber": "^12.7.0",
     "@playwright/test": "^1.49.0"
   }
 }
